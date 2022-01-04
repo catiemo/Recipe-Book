@@ -1,0 +1,19 @@
+pwd
+ls
+cd veggie-favorites
+git add chili.txt squash-lasagna.txt
+git commit -m "new changes to chilt.txt and squash-lasagna.txt
+pwd
+cd ../veggie-clone
+git fetch
+git branch
+git merge origin/master
+git branch new-recipe
+git checkout new-recipe
+git add new-recipe.txt
+git commit -m "add instructions to new-recipe.txt"
+git fetch
+git push origin new-recipe
+cd ../veggie-favorites
+git branch
+git checkout new-recipe
